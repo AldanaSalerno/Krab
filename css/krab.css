@@ -1,0 +1,708 @@
+
+@import 'sweetalert2/src/sweetalert2.scss';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+background-image: url(../imagenes/fondo.jpg);
+   background-size: cover;
+   backface-visibility: fixed;
+   font-family: 'Roboto', sans-serif; 
+}
+
+.linea {
+    border-top: 2px solid #00fff2;
+    padding: 6px;
+}
+
+/* boton modo nocturno */
+.switch {
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(59, 224, 230);
+}
+
+/*logo krab central*/
+.krab {
+    width: 300px;
+    height: auto;
+   margin: auto;
+ }
+ 
+/*  ============================================= NAV ============================================= */
+.navvbar{
+    height: 50px;
+}
+
+#main{
+    display: flex;
+    flex: 1;
+    
+}
+
+/* class de imagenes */
+.azza { 
+width: 150px;
+ height: 150px;
+ padding-top: 30px;
+
+}
+
+
+/* ============================================= FORMULARIO ============================================= */
+.contactanos {
+    text-align: center;
+    width: 50%;
+    margin-left: 100px;
+    
+    }
+    .contactanos label {
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .boton4 {
+        font-size: 20px;
+        border: 2px solid rgb(233, 225, 225);
+        text-transform: uppercase;
+        width: 30px;
+        height: 40px;
+        border-radius: 30px;
+    }
+    .contactanos input {
+        width: 80%;
+        height: 40px;
+        border-radius: 5%;
+        background-color: #333;
+         border-radius: 20px;
+        margin: 20px;
+        outline: none;
+        color: #fff;
+    }
+    .contactanos h5 {
+        color :#fff;
+       margin-bottom: 40px;
+       padding-top: 40px;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    
+    ::placeholder{
+        text-align: center;
+        color: rgb(163, 151, 151);
+    }
+    
+    
+
+/*============================================= MODO NOCTURNO ROSA ============================================= */
+body.light {
+    background-image: url(../imagenes/lightmode.png);
+    
+}
+body.light .rosa {
+  color: rgb(240, 0, 180);
+  }
+  
+body.light button {
+    color: #fff;
+    border: 1px solid rgb(240, 0, 180);
+    background-color: transparent;
+    color: rgb(240, 0, 180);
+}
+body.light .botonInicio {
+    background-color: rgb(211, 24, 164);
+    color: #fff;
+}
+body.light h2 {
+    color: rgb(240, 0, 180); 
+}
+body.light h1 {
+    color: rgb(240, 0, 180);
+}
+
+body.light 
+.switch {
+font-size: 20px;
+border-radius: 20%;
+background-color: transparent;
+color: #fff;
+}
+body.light .linea {
+        border-top: 2px solid rgb(240, 0, 180);
+        padding: 6px;
+}
+body.light #categorias {
+color: rgb(240, 0, 180);
+}
+
+body.light .botonForm a {
+    color: #fff;
+   
+}
+
+
+.recomendacion {
+    color: #fff;
+}
+
+ .p {
+    color: #fff;
+    font-size: 18px;
+}
+
+#texto p {
+    font-size: 18px;
+    width: 30%;
+    display: none;
+}
+
+/*============================================= newseller ============================================= */
+.newseller {
+    width: 50%;
+    margin-top: 100px;
+}
+.bg-transparent{
+    width: 80%;
+    height: 40px;
+    border-radius: 5%;
+    background-color: rgb(28, 36, 35);
+     border-radius: 20px;
+    margin: 10px;
+    outline: none;
+    color: #fff;
+}
+
+.newseller label {
+    font-family:'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 30px;
+}
+.newseller h4 {
+    color: #fff;
+    font-size: 18px;
+    font-family:'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.botonForm-fadeIn  {
+    background-color: #00ddd2;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    display: block;
+    margin: 30px;
+    margin-top: 100px;
+    color: black;
+}
+.botonForm-fadeOut {
+    background-color: #00ddd2;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    display: block;
+    margin: 30px;
+    margin-top: 100px;
+    color: black;
+    
+}
+.botonNewseller {
+    background-color: #00ddd2;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;} 
+.center {
+   display: flex;
+   justify-content: center;
+}
+
+#mensaje {
+    display: none;
+}
+
+.alert {
+color: #fff;
+font-size: 30px;
+background-color: #00fff2;
+}
+
+
+/* ========================================= info sobre krab ============================================= */
+
+.traerCards{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+.infoCARD {
+    margin-top: 40px;
+    color: #fff;
+    width: 60%;
+    height: 30%;
+    border-radius: 10px;
+   justify-content: center;
+    font-size: 18px;
+
+    padding: 20px;
+    box-shadow: 0 0 4px 4px white;
+line-height: 2;
+background-color: #471832;
+}
+.info {
+    color: #fff;
+}
+
+.infoH3 {
+text-transform: uppercase;
+text-align: center;
+margin: 10px;
+font-size: 20px;
+}
+.infoH4{
+    font-size: 18px;
+    text-align: center;
+}
+li a  {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+li{
+    display: flex;
+        justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.finalizar {
+    width: 400px;
+    justify-content: center;
+    font: 18px;
+    margin: 30px;
+}
+
+.container {
+    margin: 50px;
+}
+
+#agregado {
+    color: white;
+}
+#envioFormulario {
+    color: #fff;
+    font-size: 18px;
+    display: block;
+}
+#envioFormulario2 {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/* =============================info dinamica con json ============================================== */ 
+
+.h3cards{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.pcards{
+    color: #fff;
+}
+
+
+.carrito{
+    width: 40px;
+}
+
+/*=========================================== filtro por categoria ===========================================*/
+
+
+.wrap{
+	max-width: 1100px;
+	width: 90%;
+	margin: auto;
+}
+.category_list{
+background-color: transparent;
+font-family: 'Roboto', sans-serif;
+display: block;
+margin-top: 10px;
+padding: 5px;
+}
+
+.category_list a {
+display: block;
+font-size: 20px;
+}
+
+.category_list .rosa {
+color: #00ddd2;
+}
+.category_list .category_item a {
+
+    font-family: 'Roboto', sans-serif; 
+	text-align: center;
+	text-decoration: none;
+    text-transform: uppercase;
+}
+.white{
+    color: #fff;
+    font-size: 14px;
+}
+
+.verde1 a{
+    color: #00dddd;
+    font-size: 16px;
+   text-decoration: none;
+
+   display: flex;
+
+}
+
+#categorias {
+    color: #00dddd;
+    font-size: 18px;
+   text-decoration: none;
+  text-transform: uppercase;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.titulo {
+    color: #ffefef;
+    margin-top: 20px;
+  text-align: center;
+font-size: 18px;}
+
+.category_list .ct_item-active{
+	color: rgb(189, 8, 165);
+    border-radius: 10px;
+}
+
+/* ============================================= PRODUCTOS ============================================= */
+
+
+.wrap{
+	max-width: 1100px;
+	width: 90%;
+	margin: auto;
+}
+
+.products-list{
+ /* margin-left: 200px; */
+ margin-left: 100px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+text-align: center;
+}
+
+.category_item {
+    text-decoration: none;
+}
+.products-list .product-item{
+	width: 200px;
+    height: 290px;
+	margin-bottom: 25px;
+    background-color: #333;
+    border-radius: 10%;
+	transition: all .4s;
+    
+}
+.products-list .product-item h4{
+    
+    width: 100%;
+}
+.products-list .product-item img{
+	width: 100%;
+}
+
+.products-list .product-item a{
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.products-list .product-item p{
+    color: #fff;
+}
+
+
+.products-list .product-item .botonInicio {
+        background-color: #00ddd2;
+        width: 200px;
+        height: 40px;
+        color: black;
+        border:none;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+
+    .botonInicio2{
+        background-color: #00ddd2;
+        width: 200px;
+        height: 40px;
+        color: black;
+        border:none;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+     
+
+
+
+
+     
+/* ============================================= carrito =============================================*/
+
+.borrar-product {
+	background-color: #00bbbb;
+	border-radius:50%;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: rgb(71, 71, 71);
+	font-weight: bold; 
+}
+
+ul {
+	list-style: none;
+}
+
+.submenu{
+	position: relative;
+}
+.submenu #carrito{
+	display: none;
+}
+.submenu:hover #carrito {
+	display: block;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 1;
+	background:#17181b;
+	padding: 20px;
+}
+
+.botonInicio:hover{
+    background-color: #44adad;
+}
+
+#lista-products .row {
+	margin-bottom: 20px;
+}
+.agregar-carrito{
+	margin:10px 0;
+}
+
+
+.vacio {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+th {
+    font-size: 14px;
+}
+
+.info-card{
+	padding: 10px 20px;
+	color: #ffff;
+}
+.info.card p,
+.card h4 {
+	margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+	font-size: 18px;
+	margin-top: 10px;
+
+}
+.info-card .precio span {
+	font-size: 22px;
+}
+
+.precio1{
+    display: block;
+    margin-right: 40px;
+}
+
+#finalizar-compra{
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 60px;
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }
+  .column,
+  .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box; }
+  
+.info-card{
+    width: 280px;
+    height: 350px;
+}
+  html {
+    font-size: 62.5%; }
+  body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #222; }
+  
+  /* Buttons
+  /* */
+  .button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color:black;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 238, 255);
+    color: #00bbbb;
+    cursor: pointer;
+    box-sizing: border-box; } 
+
+input{
+    height: 38px;
+    padding: 6px 10px;
+    background-color: rgb(73, 66, 66);
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+  .u-full-width {
+    width: 100%;
+    box-sizing: border-box; }
+  .u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box; }
+  .u-pull-right {
+    float: right; }
+  .u-pull-left {
+    float: left; }
+  
+  
+  h1 {
+      display: none;
+      font-size: 40px;
+  }
+.titulo2 {
+    display: none;
+}
+
+
+
+/* RESPONSIVE*/
+
+@media (min-width: 360px) and (max-width: 835px) {
+    .titulo {
+        display: none;
+    }
+  
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100px;
+    margin-right: 200px;
+}
+.products-list .product-item{
+	width: 200px;
+    height: 280px;
+	margin-bottom: 25px;
+    background-color: #333;
+    border-radius: 10%;
+	transition: all .4s;
+    
+}
+
+.row{
+    width: 80px;
+}
+
+h1 {
+    display: block;
+    color: #00dddd;
+    font-size: 100px;
+}
+.category_list a{
+font-size: 18px;
+/* text-align: center; */
+margin-left: 100px;
+text-transform: uppercase;
+padding: 5px;
+}
+.contactanos {
+    display: block;
+}
+.contactanos input {
+    width: 200px;
+}
+.contactanos label {
+    margin-left: 50px;
+}
+.contactanos h5 {
+    margin-left: 30px;
+}
+.infoCARD{
+    width: 250px;
+}
+#main {
+    display: block;
+    width: 100%;
+    margin-bottom: 51px;
+}
+.titulo2{
+    color: #00dddd;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+}
+.infoCARD {
+    margin-right: 200px;
+}
+}
+
