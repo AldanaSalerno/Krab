@@ -372,7 +372,7 @@ color: #00ddd2;
 
 #categorias {
     color: #00dddd;
-    font-size: 18px;
+    font-size: 20px;
    text-decoration: none;
   text-transform: uppercase;
    border-radius: 10px;
@@ -383,7 +383,7 @@ color: #00ddd2;
     color: #ffefef;
     margin-top: 20px;
   text-align: center;
-font-size: 18px;}
+font-size: 22px;}
 
 .category_list .ct_item-active{
 	color: rgb(189, 8, 165);
@@ -552,14 +552,15 @@ th {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 60px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
     position: relative;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box; }
+    
   .column,
   .columns {
     width: 100%;
@@ -693,6 +694,7 @@ padding: 5px;
     width: 100%;
     margin-bottom: 51px;
 }
+
 .titulo2{
     color: #00dddd;
     display: block;
@@ -700,6 +702,16 @@ padding: 5px;
     margin-bottom: 20px;
     margin-left: 80px;
     font-size: 18px;
+}
+.navvbar{
+    color: #fff;
+    background-color: #32acac;
+}
+body.light .navvbar{
+    background-color: #8a1667;
+}
+.a{
+    color: #fff;
 }
 .infoCARD {
     margin-right: 200px;

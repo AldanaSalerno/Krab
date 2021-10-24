@@ -48,20 +48,14 @@ $(document).ready(function(){
 		function showProduct(){
 			$('.product-item[category="'+catProduct+'"]').show();
 			$('.product-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
-            $('.product-item[category="'+catProduct+'"]').css('position', 'absolute');
-            $('.product-item[category="'+catProduct+'"]').css('top', '20px');
+            // $('.product-item[category="'+catProduct+'"]').css('position', 'absolute');
+            // $('.product-item[category="'+catProduct+'"]').css('top', '20px');
 		} setTimeout(showProduct,400);
 	});
 
-    // function limpiaProductos() {
-    //     $('.product-item[category="all"]').css('position', 'relative')
-    // } setTimeout(showProduct,400);
 
-    // $('.product-item[category="all"]').click(function() {
-    //     limpiaProductos();
-    // } );
+
     // MOSTRANDO TODOS LOS PRODUCTOS
-
 	$('.category_item[category="all"]').click(function(){
 		function showAll(){
 			$('.product-item').show();
@@ -102,7 +96,7 @@ $(document).ready(function () {
      //alert de formulario enviado con exito en el form de contacto
      $("#enviarFormulario").click(function (e) {
         e.preventDefault()
-        $.get("../json/formulario.json",function(dato) {
+        $.get("json/formulario.json",function(dato) {
             console.log(dato)
             $("#envioFormulario").html (`
             ${dato.alert}
@@ -146,15 +140,45 @@ function traerInfo(){
     }
  }
 
-$("#finalizar-compra").click(function(){
-    Swal.fire({
-        position: 'top-center',
-        icon: 'success',
-        title: 'Tu pedido se realizo con exito!',
-        showConfirmButton: false,
-        timer: 1500
-      })
+
+ 
+
+ $("#finalizar-compra").on("click", function () {
+    if ($.isEmptyObject(carrito)) {
+        Swal.fire({
+            icon: "error",
+            title: "Ups",
+            
+            text: "¡Tenes que seleccionar un producto!",
+        });
+    } else Swal.fire({
+       
+        icon: "success",
+        title: '¡Su compra fue realizada con éxito!',
+      
+        showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+        }
+    })
+    carrito = {}
+    crearCarrito()
+  });
+  
+  //modal
+
+
+// $("#finalizar-compra").click(function(){
+//     Swal.fire({
+//         position: 'top-center',
+//         icon: 'success',
+//         title: 'Tu pedido se realizo con exito!',
+//         showConfirmButton: false,
+//         timer: 1500
+//       })
     
-})
+// })
 
 
