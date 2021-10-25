@@ -1,3 +1,6 @@
+
+
+
 /////UTILIZANDO UNA ESPECIE DE "MODO NOCTURNO" PERO CAMBIANDO COLORES////
    const btnSwitch = document.querySelector("#switch");
 
@@ -117,7 +120,7 @@ $(document).ready(function(e){
 function traerInfo(){
     //funcion xmlhttprequest para obtener info sin tener que recargar la pagina
     const a= new XMLHttpRequest();
-    a.open("GET", "../json/api.json", true)
+    a.open("GET", "json/api.json", true)
     a.send();
     a.onreadystatechange = function() {
 
@@ -142,43 +145,3 @@ function traerInfo(){
 
 
  
-
- $("#finalizar-compra").on("click", function () {
-    if ($.isEmptyObject(carrito)) {
-        Swal.fire({
-            icon: "error",
-            title: "Ups",
-            
-            text: "¡Tenes que seleccionar un producto!",
-        });
-    } else Swal.fire({
-       
-        icon: "success",
-        title: '¡Su compra fue realizada con éxito!',
-      
-        showClass: {
-            popup: 'animate__animated animate__fadeInDown'
-        },
-        hideClass: {
-            popup: 'animate__animated animate__fadeOutUp'
-        }
-    })
-    carrito = {}
-    crearCarrito()
-  });
-  
-  //modal
-
-
-// $("#finalizar-compra").click(function(){
-//     Swal.fire({
-//         position: 'top-center',
-//         icon: 'success',
-//         title: 'Tu pedido se realizo con exito!',
-//         showConfirmButton: false,
-//         timer: 1500
-//       })
-    
-// })
-
-

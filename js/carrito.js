@@ -2,6 +2,10 @@ const carrito = document.getElementById('carrito');
 const catalogos = document.getElementById('lista-catalogo');
 const listaCatalogos = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.getElementById('vaciar-carrito');
+const finalizarCompra = document.getElementById('finalizar-compra');
+
+const lista = {}
+
 
 cargarEventListeners();
 
@@ -9,6 +13,7 @@ function cargarEventListeners() {
      catalogos.addEventListener('click', comprarCatalogo);
      carrito.addEventListener('click', eliminarCatalogo);
      vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
+    finalizarCompra.addEventListener('click', vaciarCarrito);
      document.addEventListener('DOMContentLoaded', leerLocalStorage);
 }
 
@@ -141,3 +146,21 @@ function eliminarCatalogoLocalStorage(catalogo) {
 function vaciarLocalStorage() {
      localStorage.clear();
 }
+
+
+  //modal
+  $("#finalizar-compra").on("click", function () {
+     Swal.fire({
+          icon: "success",
+          title: '¡Su compra fue realizada con éxito!',
+         
+     })
+   
+   });
+   
+   $("#vaciar-carrito").click(function () {
+     Swal.fire({
+          icon: "info",
+          title: '¡Su carrito fue vaciado con éxito!',
+     })
+})

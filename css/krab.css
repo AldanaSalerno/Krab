@@ -716,5 +716,25 @@ body.light .navvbar{
 .infoCARD {
     margin-right: 200px;
 }
+.center {
+    display: block;
+    width: 600px;
+    margin-left: 100px;
+}
+.center label {
+    font-size: 14px;
+
+}
+
+.center input {
+    width: 140px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.center button {
+    margin-bottom: 30px;
+    display: block;
+    margin-left: 30px;
+}
 }
 
