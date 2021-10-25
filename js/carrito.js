@@ -164,3 +164,15 @@ function vaciarLocalStorage() {
           title: '¡Su carrito fue vaciado con éxito!',
      })
 })
+
+$(".button").click(function () {
+     Swal.fire({
+          title: 'Su producto fue agregado con exito',
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          } 
+        })
+})

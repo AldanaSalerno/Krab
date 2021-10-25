@@ -481,6 +481,31 @@ text-align: center;
 	font-weight: bold; 
 }
 
+#uno:hover{
+background-color: #165350;
+}
+#dos:hover{
+    background-color: #165350;
+    }
+    #tres:hover{
+        background-color: #165350;
+        }
+    #cuatro:hover{
+            background-color: #165350;
+            }
+    #cinco:hover{
+                background-color: #165350;
+                }
+    #seis:hover{
+                background-color: #165350;
+                    }
+    #siete:hover{
+                 background-color: #165350;
+                        }
+    #ocho:hover{
+              background-color: #165350;
+                            }
+
 ul {
 	list-style: none;
 }
@@ -645,8 +670,7 @@ input{
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    width: 100px;
-    margin-right: 200px;
+    text-align: center;
 }
 .products-list .product-item{
 	width: 200px;
