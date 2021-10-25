@@ -165,7 +165,85 @@ function vaciarLocalStorage() {
      })
 })
 
-$(".button").click(function () {
+$("#uno").click(function () {
+     Swal.fire({
+          title: 'Su producto fue agregado con exito',
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          } 
+        })
+})
+
+$("#dos").click(function () {
+     Swal.fire({
+          title: 'Su producto fue agregado con exito',
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          } 
+        })
+})
+$("#tres").click(function () {
+     Swal.fire({
+          title: 'Su producto fue agregado con exito',
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          } 
+        })
+})
+$("#cuatro").click(function () {
+     Swal.fire({
+          title: 'Su producto fue agregado con exito',
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          } 
+        })
+})
+$("#cinco").click(function () {
+     Swal.fire({
+          title: 'Su producto fue agregado con exito',
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          } 
+        })
+})
+$("#seis").click(function () {
+     Swal.fire({
+          title: 'Su producto fue agregado con exito',
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          } 
+        })
+})
+$("#siete").click(function () {
+     Swal.fire({
+          title: 'Su producto fue agregado con exito',
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          } 
+        })
+})
+$("#ocho").click(function () {
      Swal.fire({
           title: 'Su producto fue agregado con exito',
           showClass: {
