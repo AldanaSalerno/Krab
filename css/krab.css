@@ -140,35 +140,58 @@ body.light #uno{
     background-color: rgb(240, 0, 180);
     color: #fff;
 }
+body.light #uno:hover {
+    background-color: #8a1667;
+}
 body.light #dos{
     background-color: rgb(240, 0, 180);
     color: #fff;
+}
+body.light #dos:hover {
+    background-color: #8a1667;
 }
 body.light #tres{
     background-color: rgb(240, 0, 180);
     color: #fff;
 }
+body.light #tres:hover {
+    background-color: #8a1667;
+}
 body.light #cuatro{
     background-color: rgb(240, 0, 180);
     color: #fff;
+}
+body.light #cuatro:hover {
+    background-color: #8a1667;
 }
 body.light #cinco{
     background-color: rgb(240, 0, 180);
     color: #fff;
 }
+body.light #cinco:hover {
+    background-color: #8a1667;
+}
 body.light #seis{
     background-color: rgb(240, 0, 180);
     color: #fff;
+}
+body.light #seis:hover {
+    background-color: #8a1667;
 }
 body.light #siete{
     background-color: rgb(240, 0, 180);
     color: #fff;
 }
+body.light #siete:hover {
+    background-color: #8a1667;
+}
 body.light #ocho{
     background-color: rgb(240, 0, 180);
     color: #fff;
 }
-
+body.light #ocho:hover {
+    background-color: #8a1667;
+}
 .recomendacion {
     color: #fff;
 }
