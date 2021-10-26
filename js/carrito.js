@@ -4,8 +4,6 @@ const listaCatalogos = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.getElementById('vaciar-carrito');
 const finalizarCompra = document.getElementById('finalizar-compra');
 
-const lista = {}
-
 
 cargarEventListeners();
 

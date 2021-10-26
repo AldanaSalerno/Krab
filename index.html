@@ -1,268 +1,271 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Krab</title>
-	<link rel="stylesheet" type="text/css" href="./css/krab.css">
-  
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/e9581aa145.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <!-- jquery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <title>Krab</title>
+  <link rel="stylesheet" type="text/css" href="./css/krab.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/e9581aa145.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
 
-	<header class="header">
-	
-                <header>
-                    <div class="krab">
-                      <a href="index.html">
-                        <img src="./imagenes/krab.png" class="krab" alt="">
-                      </a>
-                    </div>
-	</header>
+  <header class="header">
 
-    
-              <!-- MENU RESPONSIVE CON BOOTSTRAP -->
-              <div class="linea"> </div>
-              <nav class="navbar navbar-expand-lg navbar-dark static-top">
-                
-               <button class="switch" id="switch">
-                 <span><i class="fas fa-sun"></i></span>
-                 <span><i class="fas fa-moon"></i></span>
-             </button>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-           <div class="collapse navbar-collapse" id="navbarNav">
-             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-         
-                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                       <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <div class="collapse navbar-collapse navvbar" id="navbarNav">
-                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    
-                         <ul class="navbar-nav navbar-dark">
-                          <li class="nav-item">
-                            <a class="nav-link active a" href="index.html">Inicio</a>
-                          </li>
-                           <li class="nav-item">
-                               <a class="nav-link a" href="sobrenosotros.html">Sobre nosotros</a>
-                             </li>
-         
-                         <li class="nav-item">
-                           <a class="nav-link a" href="form.html">Contacto</a>
-                         </li>
-                     	<li class="submenu">
-							<a href="#"><img class="carrito" src="imagenes/carrito.png"></a>
-							<div id="carrito">
-								<p class="vacio">carrito</p>
-								<table id="lista-carrito" class="u-full-width">
-									<thead>
-										<tr>
-											<th>Imagen</th>
-											<th>Productos </th>
-											<th>Precio</th>
-										</tr>
-									</thead>
-									<tbody>
-										
-									</tbody>
-								</table>
-								<a href="#" id="vaciar-carrito" class="button u-full-width">vaciar carrito</a>
-                <br>
-                <a href="#" id="finalizar-compra" class="button u-full-width">finalizar compra</a>
-                             
-						</li>
-                       </ul>
-                     </div>
-                   </div>
-                   
-               </nav>
+    <header>
+      <div class="krab">
+        <a href="index.html">
+          <img src="./imagenes/krab.png" class="krab" alt="">
+        </a>
+      </div>
+    </header>
 
 
-               <div class="linea"> </div>
+    <!-- MENU RESPONSIVE CON BOOTSTRAP -->
+    <div class="linea"> </div>
+    <nav class="navbar navbar-expand-lg navbar-dark static-top">
 
-             
-               <h5 class="titulo">PRODUCTOS RECOMENDADOS</h5>
+      <button class="switch" id="switch">
+        <span><i class="fas fa-sun"></i></span>
+        <span><i class="fas fa-moon"></i></span>
+      </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navvbar" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-               <main id="main">
-                 <nav>
-          
-                       <div class="store-wrapper">
-                               <div class="category_list">
-                                  <a href="#" class="category_item rosa" id="categorias" category="all">Categorias</a>
-                                 
-                                  <a href="#" class="category_item white" category="laptops">Laptops</a>
-                               
-                                 <a href="#" class="category_item white" category="audifonos">Auriculares</a>
-                               
-                                <a href="#" class="category_item white" category="teclado">Teclado</a>
-                           
-                                       <a href="#" class="category_item white" category="motherboard">Motherboard</a> 
-                                       <a href="#" class="category_item white" category="gabinetes">Gabinetes</a>
-  
-                                       <a href="#" class="category_item white" category="tele">Televisores</a>
-                                       <a href="#" class="category_item white" category="smartphones">Smartphones</a>
+              <ul class="navbar-nav navbar-dark">
+                <li class="nav-item">
+                  <a class="nav-link active a" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link a" href="sobrenosotros.html">Sobre nosotros</a>
+                </li>
 
-                                       <a href="#" class="category_item white" category="monitores">Monitores</a>
-                                     
-                                     
-                               </div>
-                              </div>
-                 </nav>
+                <li class="nav-item">
+                  <a class="nav-link a" href="form.html">Contacto</a>
+                </li>
+                <li class="submenu">
+                  <a href="#"><img class="carrito" src="imagenes/carrito.png"></a>
+                  <div id="carrito">
+                    <p class="vacio">carrito</p>
+                    <table id="lista-carrito" class="u-full-width">
+                      <thead>
+                        <tr>
+                          <th>Imagen</th>
+                          <th>Productos </th>
+                          <th>Precio</th>
+                        </tr>
+                      </thead>
+                      <tbody>
 
+                      </tbody>
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="button u-full-width">vaciar carrito</a>
+                    <br>
+                    <a href="#" id="finalizar-compra" class="button u-full-width">finalizar compra</a>
 
-             
-                 <h6 class="titulo2">PRODUCTOS RECOMENDADOS</h6>  
-               <div class="productos">              
-<section class="products-list">
-            <div id="lista-catalogo" class="container">
+                </li>
+              </ul>
+          </div>
+      </div>
 
-
-        <div class="row">
-
-             
-                    <div class="info-card">
-                        <div class="product-item" category="audifonos">
-                            <img class="azza" src="imagenes/auriscorsair2.png" alt="" >
-                            <h4>Auriculares corsair</h4>
-                            <p class="precio">$250 usd<span class="u-pull-right">$200 usd</span></p>
-
-                            <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="2" id="uno">Agregar al carrito</a> 
-                      
-</div>
- </div>
-</div>
-
-        <div class="row">
-        
-                    <div class="info-card">
-                        <div class="product-item" category="teclado">
-                            <img class="azza" src="imagenes/tecladoasus.png" alt="" >
-                            <h4>Teclado asus</h4><p class="precio"><span class="u-pull-right precio1">$150 usd</span></p> <br> <br>
-                            <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="3" id="dos">Agregar al carrito</a> 
-                       
-</div>
- </div>
-</div>
+    </nav>
 
 
-<div class="row">
-  <div class="info-card">
-                <div class="product-item" category="laptops">
-                    <img class="azza" src="imagenes/notebookhp2.png" alt="" >
-                    <h4>Laptop Hp</h4>
-                    <p class="precio"><span class="u-pull-right precio1">$800 usd</span></p> <br> <br>
-                    <a href="#" class="u-full-width button-primary button  botonInicio input agregar-carrito" data-id="7" id="tres">Agregar al carrito</a> 
-               
-</div>
-</div>
-</div>
-<div class="row">
-            <div class="info-card">
-                <div class="product-item" category="motherboard">
-                    <img class="azza" src="imagenes/motherboard.png" alt="" >
-                    <h4>Motherboard Asrock </h4>
-                    <p class="precio"><span class="u-pull-right precio1">$500 usd</span></p> <br> <br>
-                    <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="4" id="cuatro">Agregar al carrito</a>               
-</div>
-</div>
-</div>
+    <div class="linea"> </div>
 
 
-<div class="row">
-     <div class="info-card">
-                <div class="product-item" category="tele">
-                    <img class="azza" src="imagenes/telesamsung.png" alt="" >
-                    <h4>Tele Samsung Galaxy</H4>
-                        <p class="precio"><span class="u-pull-right precio1">$1000 usd</span></p> <br> <br>
-                    <a href="#" class="u-full-width button-primary botonInicio button input agregar-carrito" data-id="5" id="cinco">Agregar al carrito</a> 
-</div>
-</div>
-</div>
+    <h5 class="titulo">PRODUCTOS RECOMENDADOS</h5>
 
 
+    <main id="main">
+      <nav>
 
+        <div class="store-wrapper">
+          <div class="category_list">
+            <a href="#" class="category_item rosa" id="categorias" category="all">Categorias</a>
 
-<div class="row">
-  
-            <div class="info-card">
-                <div class="product-item" category="smartphones">
-                    <img class="azza" src="imagenes/iphone.png" alt="" >
-                    <h4>Iphone 11</h4>
-                    <p class="precio"><span class="u-pull-right precio1">$900 usd</span></p> <br> <br>
-                    <a href="#" class="u-full-width button-primary botonInicio button input agregar-carrito" data-id="6" id="seis">Agregar al carrito</a> 
-</div>
-</div>
-</div>
+            <a href="#" class="category_item white" category="laptops">Laptops</a>
 
+            <a href="#" class="category_item white" category="audifonos">Auriculares</a>
 
+            <a href="#" class="category_item white" category="teclado">Teclado</a>
 
+            <a href="#" class="category_item white" category="motherboard">Motherboard</a>
+            <a href="#" class="category_item white" category="gabinetes">Gabinetes</a>
 
+            <a href="#" class="category_item white" category="tele">Televisores</a>
+            <a href="#" class="category_item white" category="smartphones">Smartphones</a>
 
+            <a href="#" class="category_item white" category="monitores">Monitores</a>
 
-
-<div class="row">
-            <div class="info-card">
-                <div class="product-item" category="gabinetes">
-                    <img class="azza" src="imagenes/gabazza.png" alt="" >
-                    <h4>Gabinete  azza</h4><p class="precio">$400 usd<span class="u-pull-right">$350 usd</span></p>
-                    <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="8" id="siete">Agregar al carrito</a> 
-</div>
-</div>
-</div>
-<div class="row">  
-  <div class="info-card">
-  <div class="product-item" category="monitores">
-          <img class="azza" src="imagenes/monitor.png" alt="" >
-          <h4>Monitor Samsung</h4>
-              <p class="precio"><span class="u-pull-right precio1">$450 usd</span></p> <br> <br>
-          <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="9" id="ocho">Agregar al carrito</a> 
-</div>
-</div>
-</div>
-
-
-</div>
-</section>
-</main>
-
-
-     
-     <section>
-        <div class="center">
-          <button class="botonForm-fadeIn">Suscribite!</button>
-          <button class="botonForm-fadeOut">Ocultar</button>
-          <div id="mensaje">
-            <form class="newseller">
-              <h4>Suscribite a nuestro newsletter y accede a nuestros descuentos!</h4>
-                <label for="email">Escriba su email aqui</label>
-                <input id="email" type="email" name="email" placeholder="Escriba su email">
-        
-                <button class="botonNewseller" id="post" type="submit" value="ENVIAR">Enviar</button>
-                <strong id="envioFormulario2"></strong>
-            </form>
+          </div>
         </div>
-      </section>    
+      </nav>
 
 
-	<script src="js/carrito.js"></script>
+      <h6 class="titulo2">PRODUCTOS RECOMENDADOS</h6>
+
+
+      <div class="productos">
+        <section class="products-list">
+          <div id="lista-catalogo" class="container">
+
+            <div class="row">
+              <div class="info-card">
+                <div class="product-item" category="audifonos">
+                  <img class="azza" src="imagenes/auriscorsair2.png" alt="">
+                  <h4>Auriculares corsair</h4>
+                  <p class="precio">$250 usd<span class="u-pull-right">$200 usd</span></p>
+
+                  <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="2"
+                    id="uno">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="info-card">
+                <div class="product-item" category="teclado">
+                  <img class="azza" src="imagenes/tecladoasus.png" alt="">
+                  <h4>Teclado asus</h4>
+                  <p class="precio"><span class="u-pull-right precio1">$150 usd</span></p> <br> <br>
+                  <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="3"
+                    id="dos">Agregar al carrito</a> 
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="info-card">
+                <div class="product-item" category="laptops">
+                  <img class="azza" src="imagenes/notebookhp2.png" alt="">
+                  <h4>Laptop Hp</h4>
+                  <p class="precio"><span class="u-pull-right precio1">$800 usd</span></p> <br> <br>
+                  <a href="#" class="u-full-width button-primary button  botonInicio input agregar-carrito" data-id="7"
+                    id="tres">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="info-card">
+                <div class="product-item" category="motherboard">
+                  <img class="azza" src="imagenes/motherboard.png" alt="">
+                  <h4>Motherboard Asrock </h4>
+                  <p class="precio"><span class="u-pull-right precio1">$500 usd</span></p> <br> <br>
+                  <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="4"
+                    id="cuatro">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="info-card">
+                <div class="product-item" category="tele">
+                  <img class="azza" src="imagenes/telesamsung.png" alt="">
+                  <h4>Tele Samsung Galaxy</H4>
+                  <p class="precio"><span class="u-pull-right precio1">$1000 usd</span></p> <br> <br>
+                  <a href="#" class="u-full-width button-primary botonInicio button input agregar-carrito" data-id="5"
+                    id="cinco">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="info-card">
+                <div class="product-item" category="smartphones">
+                  <img class="azza" src="imagenes/iphone.png" alt="">
+                  <h4>Iphone 11</h4>
+                  <p class="precio"><span class="u-pull-right precio1">$900 usd</span></p> <br> <br>
+                  <a href="#" class="u-full-width button-primary botonInicio button input agregar-carrito" data-id="6"
+                    id="seis">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="info-card">
+                <div class="product-item" category="gabinetes">
+                  <img class="azza" src="imagenes/gabazza.png" alt="">
+                  <h4>Gabinete azza</h4>
+                  <p class="precio">$400 usd<span class="u-pull-right">$350 usd</span></p>
+                  <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="8"
+                    id="siete">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="info-card">
+                <div class="product-item" category="monitores">
+                  <img class="azza" src="imagenes/monitor.png" alt="">
+                  <h4>Monitor Samsung</h4>
+                  <p class="precio"><span class="u-pull-right precio1">$450 usd</span></p> <br> <br>
+                  <a href="#" class="u-full-width button-primary button botonInicio input agregar-carrito" data-id="9"
+                    id="ocho">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <section>
+      <div class="center">
+        <button class="botonForm-fadeIn">Suscribite!</button>
+        <button class="botonForm-fadeOut">Ocultar</button>
+        <div id="mensaje">
+          <form class="newseller">
+            <h4>Suscribite a nuestro newsletter y accede a nuestros descuentos!</h4>
+            <label for="email">Escriba su email aqui</label>
+            <input id="email" type="email" name="email" placeholder="Escriba su email">
+
+            <button class="botonNewseller" id="post" type="submit" value="ENVIAR">Enviar</button>
+            <strong id="envioFormulario2"></strong>
+          </form>
+        </div>
+    </section>
+
+
+    <script src="js/carrito.js"></script>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
 </html>
