@@ -25,14 +25,15 @@ let nombre = $("#nombre")
 
 ///get con ajax     
 $(document).ready(function () {
-  //alert de formulario enviado con exito en el form de contacto
-  $("#enviarFormulario").click(function (e) {
+     //alert de formulario enviado con exito en el form de contacto
+     $("#enviarFormulario").click(function (e) {
       e.preventDefault()
-      $.get("json/formulario.json", function (dato) {
-          $("#envioFormulario").html(`
+      $.get("formulario.json",function(dato) {
+          console.log(dato)
+          $("#envioFormulario").html (`
           ${dato.alert}
           `)
       })
-  })
+   })
 
 })

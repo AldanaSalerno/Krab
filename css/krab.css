@@ -12,6 +12,8 @@ background-image: url(../imagenes/fondo.jpg);
    background-size: cover;
    backface-visibility: fixed;
    font-family: 'Roboto', sans-serif; 
+   overflow-x: hidden;
+
 }
 
 .linea {
@@ -345,11 +347,7 @@ li{
 #envioFormulario {
     color: #fff;
     font-size: 18px;
-    display: block;
-}
-#envioFormulario2 {
-    color: #fff;
-    font-size: 18px;
+
 }
 
 
@@ -447,7 +445,7 @@ font-size: 22px;}
 
 .products-list{
  /* margin-left: 200px; */
- margin-left: 100px;
+ margin-left: 600px;
 display: grid;
 grid-template-columns: repeat(3,1fr);
 text-align: center;
@@ -644,11 +642,6 @@ th {
 }
   html {
     font-size: 62.5%; }
-  body {
-    font-size: 1.5em;
-    line-height: 1.6;
-    font-weight: 400;
-    color: #222; }
   
   /* Buttons
   /* */
@@ -684,17 +677,13 @@ input{
     box-shadow: none;
     box-sizing: border-box;
 }
-  .u-full-width {
-    width: 100%;
-    box-sizing: border-box; }
+
   .u-max-full-width {
-    max-width: 100%;
+
     box-sizing: border-box; }
   .u-pull-right {
     float: right; }
-  .u-pull-left {
-    float: left; }
-  
+
   
   h1 {
       display: none;
