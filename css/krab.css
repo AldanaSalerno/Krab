@@ -445,7 +445,7 @@ font-size: 22px;}
 
 .products-list{
  /* margin-left: 200px; */
- margin-left: 300px;
+ margin-left: 200px;
 display: grid;
 grid-template-columns: repeat(3,1fr);
 text-align: center;
